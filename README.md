@@ -17,8 +17,6 @@ The project uses historical product demand data with fields such as:
 - Product_Category
 - Order_Demand
 
-> Note: The dataset file should be placed inside `data/raw/`.
-
 ## Project Workflow
 
 ### 1. Data Cleaning
