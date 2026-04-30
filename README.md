@@ -69,18 +69,11 @@ demand-forecasting-ml-project/
 │   └── processed/
 │
 ├── notebooks/
-│   ├── 01_data_cleaning_and_eda.ipynb
-│   ├── 02_model_building_and_comparison.ipynb
-│   └── 03_future_forecasting.ipynb
+│   ├── ProjectML.ipynb
 │
 ├── outputs/
 │   ├── plots/
 │   └── results/
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── evaluation_metrics.py
-│   └── forecasting_models.py
 │
 ├── docs/
 │   └── project_summary.md
