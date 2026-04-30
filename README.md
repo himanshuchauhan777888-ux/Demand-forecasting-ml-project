@@ -112,17 +112,23 @@ Although the Hybrid Model (Regression + SES Residuals) showed slightly better MA
 ##  Visual Results
 
 ### 1. Monthly Demand Trend
-![Demand Trend](outputs/plots/01_monthly_demand_trend.png)
+This plot shows the historical monthly sales pattern for **GROCERY I - Store 44**.
+
+![Monthly Demand Trend](outputs/plots/monthly_demand_trend.png)
 
 ---
 
-### 2. Model Forecast Comparison
-![Model Comparison](outputs/plots/02_forecast_model_comparison.png)
+### 2. Forecast Comparison Across Models
+This plot compares all forecasting models against the actual validation sales.
+
+![Forecast Comparison Across Models](outputs/plots/model_comparison_plot.png)
 
 ---
 
 ### 3. Final 6-Month Forecast
-![Final Forecast](outputs/plots/03_final_6_month_forecast.png)
+The selected final model, **Regression + C(Month)**, was used to forecast the next 6 months.
+
+![Final 6-Month Forecast](outputs/plots/future_forecast_plot.png)
 
 ## Final Forecast Output
 
