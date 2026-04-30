@@ -85,10 +85,6 @@ demand-forecasting-ml-project/
 ├── docs/
 │   └── project_summary.md
 │
-├── linkedin_resume/
-│   ├── linkedin_post.md
-│   └── resume_bullets.md
-│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
