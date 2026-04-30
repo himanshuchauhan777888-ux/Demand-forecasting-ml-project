@@ -93,27 +93,26 @@ demand-forecasting-ml-project/
 ├── .gitignore
 └── README.md
 ```
-
 ## Key Results
-Add your final results here after running the notebook.
-
-Example:
 
 | Model | MAE | RMSE | MAPE |
 |---|---:|---:|---:|
-| Seasonal Naive | Add value | Add value | Add value |
-| Moving Average | Add value | Add value | Add value |
-| SES | Add value | Add value | Add value |
-| Regression + Seasonality | Add value | Add value | Add value |
-| Hybrid Model | Add value | Add value | Add value |
+| Seasonal Naive | 36,536.99 | 43,666.95 | 10.50% |
+| Trailing Moving Average | 30,951.83 | 44,604.31 | 8.47% |
+| Regression + C(Month) | 17,752.58 | 21,034.51 | 5.35% |
+| Regression + trend² + C(Month) | 18,035.20 | 21,152.01 | 5.42% |
+| Regression + SES Residuals | 17,622.69 | 21,169.82 | 5.33% |
+
+## Final Model Selection
+
+The **Regression + SES Residuals** model was selected as the final forecasting model because it achieved the lowest MAE and lowest MAPE among all tested models.
+
+This means the model produced the smallest average forecasting error and gave the most accurate percentage-based demand forecast.
 
 ## Final Forecast Output
-The final model generates a 6-month future demand forecast.  
-Forecast results should be saved in:
 
-```text
-outputs/results/future_forecast.csv
-```
+The selected model was used to forecast demand for the upcoming 6 months.  
+The forecast output can support inventory planning, production planning, and demand-based business decisions.
 
 ## Business Impact
 This forecasting workflow can help businesses:
