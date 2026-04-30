@@ -101,9 +101,28 @@ demand-forecasting-ml-project/
 
 ## Final Model Selection
 
-The **Regression + SES Residuals** model was selected as the final forecasting model because it achieved the lowest MAE and lowest MAPE among all tested models.
+The **Regression + C(Month)** model was selected as the final forecasting model.
 
-This means the model produced the smallest average forecasting error and gave the most accurate percentage-based demand forecast.
+- It achieved the lowest RMSE among all models
+- It provides a good balance between accuracy and interpretability
+- It effectively captures both trend and seasonal patterns
+
+Although the Hybrid Model (Regression + SES Residuals) showed slightly better MAE and MAPE, the improvement was marginal. Therefore, the simpler and more interpretable Regression + C(Month) model was chosen for final forecasting.
+
+##  Visual Results
+
+### 1. Monthly Demand Trend
+![Demand Trend](outputs/plots/01_monthly_demand_trend.png)
+
+---
+
+### 2. Model Forecast Comparison
+![Model Comparison](outputs/plots/02_forecast_model_comparison.png)
+
+---
+
+### 3. Final 6-Month Forecast
+![Final Forecast](outputs/plots/03_final_6_month_forecast.png)
 
 ## Final Forecast Output
 
